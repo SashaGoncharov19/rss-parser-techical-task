@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon index.js"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "html-react-parser": "^1.4.12",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
+    "quick.db": "^7.1.3",
+    "rss-parser": "^3.12.0"
+  }
+}
